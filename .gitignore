@@ -1,0 +1,40 @@
+# Ignore executables and other binaries
+/target/
+**/*.rs.bk
+
+# Ignore Cargo.lock (only if you are publishing the package)
+# Cargo.lock
+
+# Ignore build scripts output
+/build/
+
+# Ignore IDEs and editors specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore byebug history
+.byebug_history
+
+# Ignore node_modules for potential frontend
+node_modules/
+
+# Ignore SQLx generated migration files
+migrations/*.log
+migrations/*.bak
+
+# Ignore environment files
+.env
+
+# Ignore logs
+*.log
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore Rustfmt and Clippy output
+/target/debug/
